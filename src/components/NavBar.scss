@@ -1,0 +1,12 @@
+$bg: #4c566c;
+
+.NavBar-logo {
+  height: 40px;
+  margin: 5px 40px;
+}
+
+.NavBar {
+  background-color: $bg;
+  display: flex;
+  height: 50px;
+}

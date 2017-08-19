@@ -1,0 +1,27 @@
+.App {
+  height: 100%;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-container {
+  display: flex;
+  height: 100%;
+}
+
+.App-sideNav {
+  background-color: #f2f6fa;
+  height: 100%;
+  padding: 30px;
+  width: 240px;
+}
