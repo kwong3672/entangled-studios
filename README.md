@@ -11,5 +11,5 @@ $ yarn install
 
 ### Running the App
 ```
-$ npm run start
+$ yarn start
 ```
