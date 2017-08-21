@@ -10,10 +10,11 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
+        <div className="App-secondaryNav">
+          <h2>Sections</h2>
+        </div>
         <div className="App-container">
-          <div className="App-sideNav">
-            Don't Fill me out
-          </div>
+          <div className="App-sideNav" />
           <div className="App-content">
             <SectionList />
           </div>

@@ -12,12 +12,21 @@
 
 .App-container {
   display: flex;
-  height: 100%;
+  height: calc(100% - 120px);
 }
 
 .App-sideNav {
   background-color: #f2f6fa;
+  border-right: 1px solid #d2d8e6;
   height: 100%;
-  padding: 30px;
   width: 240px;
+}
+
+.App-secondaryNav {
+  align-items: center;
+  background-color: #f2f6fa;
+  border-bottom: 1px solid #d2d8e6;
+  display: flex;
+  height: 60px;
+  padding-left: 40px;
 }
