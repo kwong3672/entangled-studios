@@ -18,7 +18,7 @@ class App extends Component {
         <div className="App-container">
           <div className="App-sideNav" />
           <div className="App-content">
-            <SectionList />
+            <SectionList sections={sections}/>
           </div>
         </div>
       </div>
